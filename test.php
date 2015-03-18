@@ -3,9 +3,14 @@
 ini_set('display_errors', 'on');
 error_reporting(E_ALL);
 
-include('xml.php');
-include('element.php');
-include('collection.php');
+include('source/gc/dom/xml.php');
+
+include('source/gc/dom/traitelement.php');
+include('source/gc/dom/element.php');
+
+
+include('source/gc/dom/collection.php');
+include('source/gc/dom/csstoxpath.php');
 
 
 
